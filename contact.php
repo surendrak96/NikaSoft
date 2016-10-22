@@ -5,7 +5,7 @@ include 'smtp/Send_Mail.php';
 
 if(isset($_POST['submit'] )){
 
-$to="babji@aec.edu.in";
+$to="imsurendra99@gmail.com";
 
 	$name=$_POST['name'];
 	$email=$_POST['email'];
