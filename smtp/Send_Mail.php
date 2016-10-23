@@ -10,7 +10,7 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = 'ssl://smtp.gmail.com'; // Amazon SES server, note "tls://" protocol
 $mail->Port       =  '465';                    // set the SMTP port
 $mail->Username   = "example@gmail.com";  // SMTP  username
-$mail->Password   = "123456789";  // SMTP password
+$mail->Password   = "xxxxxxxxxxxxxxx";  // SMTP password
 $mail->SetFrom($from, 'example@gmail.com');
 $mail->AddReplyTo($from,'example@gmail.com');
 $mail->Subject    = $subject;
